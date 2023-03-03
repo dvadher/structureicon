@@ -408,6 +408,7 @@ margin-bottom: 115px;
   position: fixed;
   bottom: 50px;
   right: 50px;
+  z-index: 999;
 }
 .btn-bottom {
   position: absolute !important;
