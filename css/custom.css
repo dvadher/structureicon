@@ -390,9 +390,48 @@ margin-bottom: 115px;
   top: -4px;
   width: 630px !important;
 }
+.logo-img img {
+  width: 150px;
+}
+.logo-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.logo-img {
+  padding: 0px 20px;
+}
+.wtsp_chat img {
+  width: 50px;
+  height: 50px;
+}
+.wtsp_chat {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+.btn-bottom {
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 50%;
+  transform: translate(-50%, -0%);
+}
 /*=================================== media query css ===================================*/
 
   @media only screen and (min-width: 300px) and (max-width: 767px) { 
+    .logo-wrapper{
+      justify-content: center;
+    }
+    .logo-img {
+      padding: 0;
+      margin-bottom: 20px;
+  }
+  section.our-clients {
+    margin-top: 50px;
+}
+  .logo-img img {
+    margin: 0 auto;
+    display: flex;
+}
     .about-block,
     .custom-footer {
       text-align: center;
